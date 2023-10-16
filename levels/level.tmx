@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="64" tileheight="64" infinite="0" nextlayerid="4" nextobjectid="3">
+ <editorsettings>
+  <export target="level.tmj" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Tileset" tilewidth="64" tileheight="64" tilecount="13" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="312">
+   <image width="64" height="64" source="E:/Downloads/kenney_tower-defense-top-down/PNG/Default size/towerDefense_tile005.png"/>
+  </tile>
+  <tile id="313">
+   <image width="64" height="64" source="E:/Downloads/kenney_tower-defense-top-down/PNG/Default size/towerDefense_tile006.png"/>
+  </tile>
+  <tile id="314">
+   <image width="64" height="64" source="E:/Downloads/kenney_tower-defense-top-down/PNG/Default size/towerDefense_tile007.png"/>
+  </tile>
+  <tile id="315">
+   <image width="64" height="64" source="E:/Downloads/kenney_tower-defense-top-down/PNG/Default size/towerDefense_tile008.png"/>
+  </tile>
+  <tile id="316">
+   <image width="64" height="64" source="E:/Downloads/kenney_tower-defense-top-down/PNG/Default size/towerDefense_tile009.png"/>
+  </tile>
+  <tile id="317">
+   <image width="64" height="64" source="E:/Downloads/kenney_tower-defense-top-down/PNG/Default size/towerDefense_tile028.png"/>
+  </tile>
+  <tile id="318">
+   <image width="64" height="64" source="E:/Downloads/kenney_tower-defense-top-down/PNG/Default size/towerDefense_tile029.png"/>
+  </tile>
+  <tile id="319">
+   <image width="64" height="64" source="E:/Downloads/kenney_tower-defense-top-down/PNG/Default size/towerDefense_tile030.png"/>
+  </tile>
+  <tile id="320">
+   <image width="64" height="64" source="E:/Downloads/kenney_tower-defense-top-down/PNG/Default size/towerDefense_tile031.png"/>
+  </tile>
+  <tile id="321">
+   <image width="64" height="64" source="E:/Downloads/kenney_tower-defense-top-down/PNG/Default size/towerDefense_tile032.png"/>
+  </tile>
+  <tile id="322">
+   <image width="64" height="64" source="E:/Downloads/kenney_tower-defense-top-down/PNG/Default size/towerDefense_tile051.png"/>
+  </tile>
+  <tile id="323">
+   <image width="64" height="64" source="E:/Downloads/kenney_tower-defense-top-down/PNG/Default size/towerDefense_tile052.png"/>
+  </tile>
+  <tile id="324">
+   <image width="64" height="64" source="E:/Downloads/kenney_tower-defense-top-down/PNG/Default size/towerDefense_tile053.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="15" height="15">
+  <data encoding="csv">
+320,318,319,319,319,319,319,319,319,319,319,319,319,319,319,
+320,318,319,316,324,324,324,324,324,324,324,324,317,319,319,
+320,318,319,320,313,314,314,314,314,314,314,315,318,319,319,
+320,318,319,320,318,319,319,319,319,319,319,320,318,319,319,
+320,323,324,325,318,319,319,319,319,319,319,320,318,319,319,
+321,314,314,314,322,319,316,324,324,324,324,325,318,319,319,
+319,319,319,319,319,319,320,313,314,314,314,314,322,319,319,
+316,324,324,324,324,324,325,318,319,319,319,319,319,319,319,
+320,313,314,314,314,314,314,322,319,316,324,324,324,317,319,
+320,318,319,319,319,319,319,319,319,320,313,314,315,318,319,
+320,318,319,319,316,324,324,324,324,325,318,319,320,318,319,
+320,318,319,319,320,313,314,314,314,314,322,319,320,318,319,
+320,323,324,324,325,318,319,319,319,319,319,319,320,318,319,
+321,314,314,314,314,322,319,319,319,319,319,319,320,318,319,
+319,319,319,319,319,319,319,319,319,319,319,319,320,318,319
+</data>
+ </layer>
+ <objectgroup id="3" name="Checkpoints">
+  <object id="2" x="64.3333" y="0">
+   <polyline points="0,0 -0.333333,320 192.167,319.5 191.667,127 703.667,127.5 703.667,384.5 383.167,384.5 383.667,512.5 -1.33333,512 -0.833333,832.5 255.667,831.5 255.667,703.5 575.667,704 576.167,575 767.667,575.5 767.667,959.5"/>
+  </object>
+ </objectgroup>
+</map>
